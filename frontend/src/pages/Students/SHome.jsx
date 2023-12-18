@@ -24,6 +24,7 @@ const SHome = () => {
           <BackButton />
           <div>
             <h1 style={{fontSize:35}}>Student Dashboard</h1>
+            <p>This is student Dashboard it contain list of feedbacks</p>
           </div>
         </div>
       )}
