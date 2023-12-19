@@ -17,7 +17,7 @@ const Anon = () => {
 
   return (
     <div>
-      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       {isLoading ? (
         <Loader />
       ) : (
@@ -27,7 +27,7 @@ const Anon = () => {
       ) : (
         
         <div className='p-3' style={{textAlign:'center'}}>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
           <NavigationBar />
           <BackButton />
           <h1 style={{textAlign:'center', fontFamily:'Figtree, sans-serif', fontSize:30, fontStyle:'bold'}}>Anonymous</h1>

@@ -19,11 +19,11 @@ const Home = () => {
 
   return (
     <div>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       {isLoading ? (
         <Loader />
       ) : (
         <div className='p-2'>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
           <NavigtionBar />
           <div style={{ textAlign: 'center' }}>
             <h1 style={{ fontSize: 40, fontFamily:'Figtree, sans-serif'}}>E Feedback</h1>

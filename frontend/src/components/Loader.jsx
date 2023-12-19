@@ -35,7 +35,7 @@ const Loader = () => {
 
   return (
     <div className="loader-container " style={{display:'flex', justifyContent:'center', padding:120}}>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <RingLoader css={override} size={150} color={'#36D7B7'} loading={loading} />
       {!loading && (
         <div>

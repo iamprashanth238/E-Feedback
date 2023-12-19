@@ -3,7 +3,7 @@ import React from 'react'
 const FResult = () => {
   return (
     <div>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <h1>Faculty results</h1>
     </div>
   )

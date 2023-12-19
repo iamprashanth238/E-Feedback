@@ -16,10 +16,12 @@ const SHome = () => {
   }, []);
   return (
     <div>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       {isLoading ? (
         <Loader />
       ):(
         <div className='p-3'>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>,
           <NavigationBar />
           <BackButton destination='/'/>
           <div>

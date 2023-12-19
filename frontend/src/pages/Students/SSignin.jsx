@@ -18,7 +18,7 @@ const SSignin = () => {
 
   return (
     <div>
-      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       {isLoading ? (
         <Loader />
       ) : (
@@ -27,6 +27,7 @@ const SSignin = () => {
         <Loader />
       ) : (
         <div className='p-3'>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
           <NavigationBar />
           <BackButton />
           <div>

@@ -4,6 +4,7 @@ import '../assets/style/loginForm.css';
 const Logpage = () => {
   return (
     <div className="login-container">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <form className="login-form" method='POST'>
         <h1 style={{fontSize:20, fontFamily:'Figtree, sans-serif'}}>Login</h1>
         <div className="form-group">

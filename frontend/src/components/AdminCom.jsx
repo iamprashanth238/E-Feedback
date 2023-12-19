@@ -7,6 +7,7 @@ import { FaWpforms } from "react-icons/fa";
 const AdminCom = () => {
   return (
     <div className='Adminblock'>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <div className='box1'>
         <a href='/Admin/Addmember'>
             <IoIosAddCircleOutline size={60} style={{margin:'auto'}}/>    

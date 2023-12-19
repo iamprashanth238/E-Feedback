@@ -6,6 +6,7 @@ import { FaWpforms } from "react-icons/fa";
 const FacultyCom = () => {
   return (
     <div className='Adminblock'>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <div className='box2'>
         <a href='/Admin/Createform'>
             <FaWpforms size={60} style={{margin:'auto'}}/>
