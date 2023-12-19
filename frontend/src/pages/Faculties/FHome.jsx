@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import NavigationBar from '../../components/NavigtionBar';
 import BackButton from '../../components/BackButton';
 import Loader from '../../components/Loader';
+import FacultyCom from '../../components/FacultyCom';
 
 const FHome = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -24,6 +25,7 @@ const FHome = () => {
           <BackButton />
           <div>
             <h1 style={{fontSize:35, fontFamily:'Figtree, sans-serif'}}>Faculty Dashboard</h1>
+            <FacultyCom />
           </div>
         </div>
       )}
